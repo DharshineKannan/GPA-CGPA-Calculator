@@ -3,7 +3,7 @@ from tkinter import *
 class CGPACalculator:
     def __init__(self) -> None:
         window = Tk()
-        window.title(" CGPA Calculator - Regulation 2019 (CBCS) ")
+        window.title(" CGPA Calculator ")
         window.geometry("500x500")
         Label(window, text=" Semesters ",justify=CENTER).grid(row=1,column=1)
         Label(window, text=" Credit Points ",justify=CENTER).grid(row=1,column=2)
